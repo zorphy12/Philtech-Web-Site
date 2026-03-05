@@ -27,10 +27,9 @@ if ($name !== null) $_SESSION['name'] = $name;
         <a href="#" class="logo">PHILTECH </a>
         <nav>
             
-             <a href="Admin_site.php">Home</a>
-             <a href="#">About</a>
-             <a href="#">Services</a>
-             <a href="#">Contact</a>
+             <a href="Shs_clients.php">Senior-high List</a>
+             <a href="college_clients.php">College List</a>
+             
         </nav>
 
         <div class="user-auth">
@@ -106,6 +105,5 @@ if ($name !== null) $_SESSION['name'] = $name;
 
  <script src="admin_script.js"></script>
 </body>
-
 
 </html>
