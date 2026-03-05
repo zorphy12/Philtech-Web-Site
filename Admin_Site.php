@@ -84,7 +84,7 @@ if ($name !== null) $_SESSION['name'] = $name;
         
       <div class="form-box register">
             <h2>Register</h2>
-                <form action="auth_process.php" method="POST">
+                <form action="auth_process_admin.php" method="POST">
                     <div class="input-box">
                         <input type="text" name="name" placeholder="Name" required>
                         <i class='bx bxs-user' ></i>
@@ -106,5 +106,6 @@ if ($name !== null) $_SESSION['name'] = $name;
 
  <script src="admin_script.js"></script>
 </body>
+
 
 </html>
